@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="Css/style.css">    
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="leftDiv">
+                <div class="content">
+                    <img src="Images/norse.png" alt="">
+                    <h1>Norse</h1>
+                </div>                
+            </div>
+            <div class="rightDiv">
+                <div class="text">
+                    <h5>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!<br> Sign up now to get started.</h5>
+                    <h6>You <i>know</i> you want to.</h6>
+                </div>
+                <form>
+                    <legend>Let's do this</legend>
+                    <div class="input1">
+                        <div class="input">
+                            <label for="first-name">First name</label>
+                            <input type="text" name="first-name" id="first-name" required>
+                        </div>
+                        
+                        <div class="input">
+                            <label for="last-name">Last name</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="input1">
+                        <div class="input">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        
+                        <div class="input">
+                            <label for="phone-number">Phone number</label>
+                            <input type="number" name="phone-number" id="phone-number" minlength="10" maxlength="13">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="input1">
+                        <div class="input">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="passwor" required>
+                        </div>
+                        
+                        <div class="input">
+                            <label for="confirm-password">Confirm password</label>
+                            <input type="password" name="confirm-password" id="confirm-password" required>
+                        </div>
+                    </div>
+                    
+                </form>
+                <button>Create Account</button><br>
+                <a href="login.html">Already have an account? <span>Log in</span></a>               
+            </div>
+        </div>
+    </section>
+</body>
+</html>
